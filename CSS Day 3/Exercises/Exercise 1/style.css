@@ -37,8 +37,6 @@ p {
 
 .flex {
   display: flex;
-  width: 100%;
-  align-items: end;
 }
 
 .mspace {
@@ -50,13 +48,15 @@ p {
 }
 
 .bigcol {
-  min-width: 70%;
+  width: 70%;
+  align-self:flex-end;
 }
 
 .smallcol {
   text-align: right;
   justify-content: end;
-  min-width: 15%;
+  width: 15%;
+  align-self:flex-end;
 }
 
 .minicol {
