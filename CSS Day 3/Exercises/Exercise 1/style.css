@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/*it holds everything inside of it*/
+.template {
+  border: 1px solid black;
+  margin: 0 5rem;
+  padding: 0 5px;
+  width: 350px;
+}
+
+.small {
+  font-size: 0.7;
+}
+
+/*line divider*/
+.thinline {
+  border-bottom: 1px solid black;
+}
+
+.midline {
+  border-bottom: 2px solid black;
+}
+
+.thicline {
+  border-bottom: 8px solid black;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: end;
+}
+
+.mspace {
+  margin-left: 2%;
+}
+
+.pspace {
+  padding-left: 2%;
+}
+
+.bigcol {
+  min-width: 70%;
+}
+
+.smallcol {
+  text-align: right;
+  justify-content: end;
+  min-width: 15%;
+}
+
+.minicol {
+  display: flex;
+  width: 25%;
+  justify-content: end;
+}
+
+.sidecol {
+  width: 100%;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+.lastrow {
+  justify-content: center;
+  gap: 3%;
+}

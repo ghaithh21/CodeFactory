@@ -1,0 +1,69 @@
+.box {
+  width: 5em;
+  height: 3em;
+}
+
+.absolute1 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  background-color: grey;
+  border: 5px solid black;
+}
+
+.absolute2 {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  background-color: blue;
+  z-index: 1;
+  border: 5px solid black;
+}
+
+.absolute3 {
+  position: absolute;
+  top: 190px;
+  right: 10%;
+  background-color: yellow;
+  border: 5px solid black;
+}
+
+.fixed {
+  position: fixed;
+  right: 10%;
+  top: 80%;
+  background-color: red;
+  margin-top: -25px;
+  border: 5px solid black;
+}
+
+.div-static {
+  position: static;
+  margin: 20px;
+  padding: 10px;
+}
+
+.div-absolute {
+  position: absolute;
+  padding: 10px;
+  width: 400px;
+  top: 500px;
+  right: 25%;
+}
+
+div {
+  height: 200px;
+  border: 1px solid black;
+}
+
+/*==================
+   Please ignore 
+  ==================*/
+
+* {
+  font-family: Arial;
+}
+
+body {
+  min-height: 1600px;
+}

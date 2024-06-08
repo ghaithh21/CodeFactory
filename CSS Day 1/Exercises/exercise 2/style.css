@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 5px;
+}
+
+/*
+.left#third > span {
+  visibility: hidden;
+}
+
+#fifth p { 
+  display: none;
+}
+*/
+
+#sixth img {
+  width: 300px;
+  height: 300px;
+}
+
+p {
+  color: red;
+}
+
+#third p {
+  background-color: black;
+}
